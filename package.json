@@ -1,6 +1,6 @@
 {
   "name": "@moltin/node-storage-adapter",
-  "version": "0.0.0",
+  "version": "0.0.0-semantic-release",
   "license": "MIT",
   "main": "dist/index.cjs.js",
   "jsnext:main": "dist/index.esm.js",
