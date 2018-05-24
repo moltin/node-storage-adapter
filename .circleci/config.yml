@@ -19,7 +19,7 @@ jobs:
       - restore_cache:
           keys:
             - node-storage-adapter-dependencies-{{ checksum "package.json" }}
-      - yarn build
+      - run: yarn build
       - run: yarn test
   release:
     docker:
