@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:8@sha256:ddc5257110beead59f268b8120abd0da286956e4aa15a45541b6834aca056295
+      - image: circleci/node:8@sha256:faf0bd95bc341585a53e1f7d372e4544f98a973a76c52bc90773b5b60e5742fb
     steps:
       - checkout
       - run: yarn
@@ -13,7 +13,7 @@ jobs:
           key: node-storage-adapter-dependencies-{{ checksum "package.json" }}
   test:
     docker:
-      - image: circleci/node:8@sha256:ddc5257110beead59f268b8120abd0da286956e4aa15a45541b6834aca056295
+      - image: circleci/node:8@sha256:faf0bd95bc341585a53e1f7d372e4544f98a973a76c52bc90773b5b60e5742fb
     steps:
       - checkout
       - restore_cache:
@@ -23,7 +23,7 @@ jobs:
       - run: yarn test
   release:
     docker:
-      - image: circleci/node:8@sha256:ddc5257110beead59f268b8120abd0da286956e4aa15a45541b6834aca056295
+      - image: circleci/node:8@sha256:faf0bd95bc341585a53e1f7d372e4544f98a973a76c52bc90773b5b60e5742fb
     steps:
       - checkout
       - restore_cache:
