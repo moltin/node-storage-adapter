@@ -18,7 +18,7 @@
   "devDependencies": {
     "jest": "23.6.0",
     "rimraf": "2.6.2",
-    "rollup": "0.66.4",
+    "rollup": "0.66.5",
     "rollup-plugin-commonjs": "9.1.8",
     "rollup-plugin-node-resolve": "3.4.0"
   },
