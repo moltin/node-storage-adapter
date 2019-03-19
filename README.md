@@ -14,11 +14,25 @@ npm install --save @moltin/node-storage-adapter
 
 ## ⛽️ Usage
 
+### Moltin JS SDK
+
 ```js
 import { gateway as MoltinGateway } from '@moltin/sdk'
 import NodeStorageAdapter from '@moltin/node-storage-adapter'
 
 const Moltin = MoltinGateway({
+  client_id: 'XXX',
+  storage: new NodeStorageAdapter('./localStorage')
+})
+```
+
+### Moltin JS Request Library
+
+```js
+import { createClient } from '@moltin/request'
+import NodeStorageAdapter from '@moltin/node-storage-adapter'
+
+const Moltin = new createClient({
   client_id: 'XXX',
   storage: new NodeStorageAdapter('./localStorage')
 })
