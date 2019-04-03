@@ -2629,9 +2629,9 @@ rimraf@^2.5.4, rimraf@^2.6.1:
   dependencies:
     glob "^7.0.5"
 
-rollup-plugin-commonjs@9.2.3:
-  version "9.2.3"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-commonjs/-/rollup-plugin-commonjs-9.2.3.tgz#1b468910ca200f7d741506a2781edae2859780f9"
+rollup-plugin-commonjs@9.3.0:
+  version "9.3.0"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-commonjs/-/rollup-plugin-commonjs-9.3.0.tgz#7250c8383264f59efc7092340dc426509c7cfe4c"
   dependencies:
     estree-walker "^0.6.0"
     magic-string "^0.25.2"
