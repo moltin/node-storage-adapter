@@ -29,10 +29,10 @@ const Moltin = MoltinGateway({
 ### Moltin JS Request Library
 
 ```js
-import { createClient } from '@moltin/request'
+import { MoltinClient } from '@moltin/request'
 import NodeStorageAdapter from '@moltin/node-storage-adapter'
 
-const Moltin = new createClient({
+const Moltin = new MoltinClient({
   client_id: 'XXX',
   storage: new NodeStorageAdapter('./localStorage')
 })
