@@ -20,7 +20,7 @@
     "rimraf": "2.7.1",
     "rollup": "0.68.2",
     "rollup-plugin-commonjs": "9.3.4",
-    "@rollup/plugin-node-resolve": "6.1.0"
+    "@rollup/plugin-node-resolve": "15.2.3"
   },
   "publishConfig": {
     "access": "public"
